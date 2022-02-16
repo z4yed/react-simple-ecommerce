@@ -1,0 +1,30 @@
+.productContainer {
+  display: flex;
+  margin-left: 50px;
+  border-right: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  margin-bottom: 5px;
+  padding: 20px;
+
+  .image {
+    text-align: center;
+  }
+
+  .info {
+    margin-left: 30px;
+    .productName {
+      color: darkblue;
+      font-size: 18px;
+    }
+
+    .addToCart {
+      padding: 10px 15px;
+      background-color: rgb(88, 81, 18);
+      border: 0;
+      color: white;
+      font-weight: bold;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}
