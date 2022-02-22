@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Product.module.scss";
 
 const Product = (props) => {
-  const { img, name, price, seller, key, stock } = props.product;
+  const { img, name, price, seller, stock } = props.product;
   return (
     <div className={classes.productContainer}>
       <div className={classes.image}>

@@ -1,0 +1,15 @@
+.reviewContainer {
+  padding: 40px;
+  .title {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    .productContainer {
+      margin-left: 40px;
+    }
+  }
+}
